@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/rollAndDice.dir/main.cpp.o  -o rollAndDice 

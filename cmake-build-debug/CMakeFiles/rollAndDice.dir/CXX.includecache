@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rolijesoo/rollAndDice/conio.h
+termios.h
+-
+stdio.h
+-
+
+/home/rolijesoo/rollAndDice/main.cpp
+iostream
+-
+conio.h
+/home/rolijesoo/rollAndDice/conio.h
+time.h
+-
+string
+-
+stdlib.h
+-
+
